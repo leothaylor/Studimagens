@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudImagem | Transformação Visual Premium</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f6f6f6',
+                            100: '#e7e7e7',
+                            200: '#d1d1d1',
+                            300: '#b0b0b0',
+                            400: '#888888',
+                            500: '#6d6d6d',
+                            600: '#5d5d5d',
+                            700: '#4f4f4f',
+                            800: '#454545',
+                            900: '#3d3d3d',
+                            950: '#0a0a0a', 
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .text-gradient {
+            background: linear-gradient(to right, #ffffff, #a1a1aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-brand-950 text-brand-50 font-sans antialiased selection:bg-white selection:text-black pb-20 md:pb-0">
+
+    <!-- Header / Nav -->
+    <header class="fixed top-0 w-full z-50 bg-brand-950/90 backdrop-blur-sm border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="font-serif text-2xl font-semibold tracking-wide">StudImagem<span class="text-zinc-500">.</span></div>
+            <a href="#pacotes" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium transition-all bg-white text-black hover:bg-zinc-200 rounded-full">
+                Agendar Produção
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section class="relative pt-32 pb-16 md:pt-48 md:pb-24 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-white opacity-[0.02] blur-[120px] rounded-full pointer-events-none"></div>
+        
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div class="flex flex-col items-start text-left">
+                    <div class="inline-flex items-center px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs font-medium tracking-widest uppercase mb-6 text-zinc-400">
+                        Direção de Arte com IA
+                    </div>
+                    <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] mb-6">
+                        Transformo fotos <span class="text-zinc-500 italic">comuns</span> em imagens profissionais com aparência <span class="text-gradient font-semibold">premium</span>.
+                    </h1>
+                    <p class="text-zinc-400 text-lg md:text-xl leading-relaxed mb-10 max-w-lg">
+                        Imagens feitas a partir das suas fotos para perfil, Instagram, TikTok e posicionamento digital.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                        <a href="https://wa.me/5521982808635?text=Ol%C3%A1%21%20Quero%20entender%20melhor%20como%20funciona%20a%20transforma%C3%A7%C3%A3o%20das%20minhas%20fotos." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-sm font-medium transition-all bg-white text-black hover:bg-zinc-200 rounded-full w-full sm:w-auto">
+                            Falar no WhatsApp
+                        </a>
+                        <a href="#portfolio" class="inline-flex items-center justify-center px-8 py-4 text-sm font-medium transition-all border border-white/20 text-white hover:bg-white/5 rounded-full w-full sm:w-auto">
+                            Ver exemplos
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Visual (Placeholder Preparado) -->
+                <div class="relative w-full aspect-[4/5] md:aspect-square rounded-2xl overflow-hidden bg-[#111] border border-white/5 flex flex-col items-center justify-center text-center p-6 group">
+                    <span class="font-mono text-zinc-500 text-sm md:text-base mb-2">/images/hero-principal.jpg</span>
+                    <span class="text-xs text-zinc-600 font-sans tracking-wide">Espaço reservado para a imagem principal real</span>
+                    
+                    <div class="absolute bottom-4 right-4 bg-black/80 backdrop-blur-sm px-3 py-1.5 rounded text-xs text-zinc-300 border border-white/10 z-10 flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full bg-green-500/80"></span>
+                        Imagem criada a partir de foto base
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO DE CONFIANÇA -->
+    <div class="border-y border-white/5 bg-[#0a0a0a]">
+        <div class="max-w-6xl mx-auto px-6 py-6 md:py-8 flex flex-wrap justify-center gap-x-8 gap-y-4 md:gap-x-12 text-xs md:text-sm text-zinc-400 font-medium">
+            <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                Partimos das suas fotos reais
+            </div>
+            <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                Análise e curadoria manual
+            </div>
+            <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                Fidelidade aos seus traços
+            </div>
+            <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                Ajustes focados na sua proposta
+            </div>
+        </div>
+    </div>
+
+    <!-- BLOCO "IDEAL PARA" -->
+    <section class="py-16 bg-[#0a0a0a]">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h3 class="text-xs uppercase tracking-widest text-zinc-500 mb-8 font-medium">Ideal para</h3>
+            <div class="flex flex-wrap justify-center gap-3 md:gap-4">
+                <span class="px-4 py-2 rounded-full border border-white/10 bg-[#111] text-zinc-300 text-sm">Foto de perfil</span>
+                <span class="px-4 py-2 rounded-full border border-white/10 bg-[#111] text-zinc-300 text-sm">Instagram</span>
+                <span class="px-4 py-2 rounded-full border border-white/10 bg-[#111] text-zinc-300 text-sm">TikTok</span>
+                <span class="px-4 py-2 rounded-full border border-white/10 bg-[#111] text-zinc-300 text-sm">Posicionamento pessoal ou profissional</span>
+                <span class="px-4 py-2 rounded-full border border-white/10 bg-[#111] text-zinc-300 text-sm">Criadores</span>
+                <span class="px-4 py-2 rounded-full border border-white/10 bg-[#111] text-zinc-300 text-sm">Profissionais que querem parecer mais fortes online</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. BLOCO DE PROVA VISUAL / PORTFÓLIO -->
+    <section id="portfolio" class="py-24 bg-[#0d0d0d] border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-3xl md:text-5xl font-medium mb-4">Exemplos do nível visual que você pode ter</h2>
+                <p class="text-zinc-400 text-lg max-w-2xl mx-auto">Direção visual e curadoria aplicadas às suas fotos reais para elevar seu perfil e conteúdo, mantendo total fidelidade ao seu rosto.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                <div class="relative overflow-hidden rounded-xl aspect-[3/4] bg-[#121212] border border-white/5 flex flex-col items-center justify-center text-center p-4">
+                    <span class="font-mono text-zinc-500 text-xs mb-1">/images/portfolio-carro.jpg</span>
+                    <span class="text-[10px] text-zinc-700 font-sans uppercase tracking-widest">Exemplo de Resultado</span>
+                </div>
+                
+                <div class="relative overflow-hidden rounded-xl aspect-[3/4] bg-[#121212] border border-white/5 flex flex-col items-center justify-center text-center p-4 md:mt-12">
+                    <span class="font-mono text-zinc-500 text-xs mb-1">/images/portfolio-luz-circular.jpg</span>
+                    <span class="text-[10px] text-zinc-700 font-sans uppercase tracking-widest">Exemplo de Resultado</span>
+                </div>
+
+                <div class="relative overflow-hidden rounded-xl aspect-[3/4] bg-[#121212] border border-white/5 flex flex-col items-center justify-center text-center p-4">
+                    <span class="font-mono text-zinc-500 text-xs mb-1">/images/portfolio-corredor.jpg</span>
+                    <span class="text-[10px] text-zinc-700 font-sans uppercase tracking-widest">Exemplo de Resultado</span>
+                </div>
+
+                <div class="relative overflow-hidden rounded-xl aspect-[3/4] bg-[#121212] border border-white/5 flex flex-col items-center justify-center text-center p-4">
+                    <span class="font-mono text-zinc-500 text-xs mb-1">/images/portfolio-jornal.jpg</span>
+                    <span class="text-[10px] text-zinc-700 font-sans uppercase tracking-widest">Exemplo de Resultado</span>
+                </div>
+
+                <div class="relative overflow-hidden rounded-xl aspect-[3/4] bg-[#121212] border border-white/5 flex flex-col items-center justify-center text-center p-4 md:mt-12">
+                    <span class="font-mono text-zinc-500 text-xs mb-1">/images/portfolio-urbana.jpg</span>
+                    <span class="text-[10px] text-zinc-700 font-sans uppercase tracking-widest">Exemplo de Resultado</span>
+                </div>
+
+                <div class="relative overflow-hidden rounded-xl aspect-[3/4] bg-[#121212] border border-white/5 flex flex-col items-center justify-center text-center p-4">
+                    <span class="font-mono text-zinc-500 text-xs mb-1">/images/portfolio-jato.jpg</span>
+                    <span class="text-[10px] text-zinc-700 font-sans uppercase tracking-widest">Exemplo de Resultado</span>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="https://wa.me/5521982808635?text=Ol%C3%A1%21%20Quero%20imagens%20nesse%20n%C3%ADvel%20e%20quero%20entender%20qual%20pacote%20faz%20mais%20sentido%20pra%20mim." target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-sm font-medium transition-all bg-white text-black hover:bg-zinc-200 rounded-full">
+                    Quero imagens nesse nível
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. BLOCO "COMO FUNCIONA" -->
+    <section class="py-24 border-y border-white/5 bg-[#0a0a0a]">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="font-serif text-3xl md:text-4xl font-medium mb-16 text-center">Como funciona</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-y-1/2 z-0"></div>
+                
+                <div class="relative z-10 flex flex-col items-center text-center p-6 bg-[#111] border border-white/5 rounded-2xl">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-black border border-white/20 text-xl font-serif mb-6 text-white">1</div>
+                    <h3 class="text-lg font-medium mb-2">Você envia as fotos</h3>
+                    <p class="text-sm text-zinc-400">Pelo WhatsApp, você envia algumas fotos suas atuais seguindo nossas diretrizes.</p>
+                </div>
+                
+                <div class="relative z-10 flex flex-col items-center text-center p-6 bg-[#111] border border-white/5 rounded-2xl">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-black border border-white/20 text-xl font-serif mb-6 text-white">2</div>
+                    <h3 class="text-lg font-medium mb-2">Eu analiso a base</h3>
+                    <p class="text-sm text-zinc-400">Avalio a qualidade, ângulos e iluminação para garantir a melhor conversão visual.</p>
+                </div>
+                
+                <div class="relative z-10 flex flex-col items-center text-center p-6 bg-[#111] border border-white/5 rounded-2xl">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-black border border-white/20 text-xl font-serif mb-6 text-white">3</div>
+                    <h3 class="text-lg font-medium mb-2">Produção visual</h3>
+                    <p class="text-sm text-zinc-400">Aplico direção de arte, curadoria estética e transformo suas imagens com IA.</p>
+                </div>
+                
+                <div class="relative z-10 flex flex-col items-center text-center p-6 bg-[#111] border border-white/5 rounded-2xl">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white text-black text-xl font-serif mb-6">4</div>
+                    <h3 class="text-lg font-medium mb-2">Entrega final</h3>
+                    <p class="text-sm text-zinc-400">Você recebe a seleção pronta para usar imediatamente nas suas redes e conteúdos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO "O QUE VOCÊ RECEBE" -->
+    <section class="py-16 md:py-20 bg-[#0d0d0d] border-b border-white/5">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="font-serif text-3xl font-medium mb-4">O que você recebe</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+                <div class="bg-[#111] border border-white/5 p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[140px]">
+                    <svg class="w-8 h-8 text-zinc-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <h4 class="text-zinc-200 font-medium text-sm">Imagens em alta resolução</h4>
+                </div>
+                <div class="bg-[#111] border border-white/5 p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[140px]">
+                    <svg class="w-8 h-8 text-zinc-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h4 class="text-zinc-200 font-medium text-sm">Seleção final curada</h4>
+                </div>
+                <div class="bg-[#111] border border-white/5 p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[140px]">
+                    <svg class="w-8 h-8 text-zinc-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    <h4 class="text-zinc-200 font-medium text-sm">Arquivos prontos para usar</h4>
+                </div>
+                <div class="bg-[#111] border border-white/5 p-6 rounded-2xl flex flex-col items-center text-center justify-center min-h-[140px]">
+                    <svg class="w-8 h-8 text-zinc-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001 1v1a2 2 0 104 0V4z"></path></svg>
+                    <h4 class="text-zinc-200 font-medium text-sm">Resultado focado no seu perfil</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. BLOCO DE PACOTES -->
+    <section id="pacotes" class="py-24 bg-[#0a0a0a]">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-8">
+                <h2 class="font-serif text-3xl md:text-5xl font-medium mb-4">Escolha seu pacote</h2>
+                <p class="text-zinc-400 text-lg">Investimento único. Resultado imediato na sua presença online.</p>
+            </div>
+
+            <!-- Mini Resumo Comercial -->
+            <div class="text-center mb-12">
+                <div class="inline-flex flex-wrap justify-center gap-x-3 gap-y-2 px-6 py-2 rounded-full border border-white/5 bg-[#111] text-xs font-medium text-zinc-400">
+                    <span>Pagamento antecipado</span>
+                    <span class="text-zinc-600">•</span>
+                    <span>Prévia em até 24h</span>
+                    <span class="text-zinc-600">•</span>
+                    <span>Ajustes por rodada</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-4xl mx-auto">
+                <!-- Pacote 1 -->
+                <div class="bg-[#111] p-8 md:p-10 rounded-3xl border border-white/5 hover:border-white/20 transition-colors">
+                    <h3 class="text-xl font-medium text-zinc-300 mb-2">Pacote Inicial</h3>
+                    <div class="flex items-baseline gap-2 mb-6">
+                        <span class="text-4xl font-serif font-medium">3</span>
+                        <span class="text-zinc-400">imagens personalizadas</span>
+                    </div>
+                    <div class="mb-8">
+                        <span class="text-3xl font-semibold">R$ 29,90</span>
+                    </div>
+                    <p class="text-zinc-400 text-sm mb-8 min-h-[40px]">
+                        Entrada ideal para testar a transformação e criar suas primeiras imagens com aparência premium.
+                    </p>
+                    <ul class="space-y-3 mb-8 text-sm text-zinc-300">
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Análise de fotos base</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Entrega de prévia em até 24h</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Alta resolução</li>
+                    </ul>
+                    <a href="https://wa.me/5521982808635?text=Ol%C3%A1%21%20Quero%20pedir%20o%20Pacote%20Inicial%20de%203%20imagens." target="_blank" class="block w-full text-center px-6 py-4 text-sm font-medium transition-all border border-white/20 text-white hover:bg-white hover:text-black rounded-full">
+                        Pedir Pacote Inicial
+                    </a>
+                </div>
+
+                <!-- Pacote 2 (Destaque) -->
+                <div class="bg-zinc-900 p-8 md:p-12 rounded-3xl border border-zinc-700 relative shadow-[0_0_40px_rgba(255,255,255,0.03)] transform md:-translate-y-4">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-white text-black px-4 py-1 rounded-full text-xs font-bold tracking-wide uppercase">
+                        Melhor Valor
+                    </div>
+                    <h3 class="text-xl font-medium text-white mb-2">Pacote Principal</h3>
+                    <div class="flex items-baseline gap-2 mb-6">
+                        <span class="text-5xl font-serif font-medium">10</span>
+                        <span class="text-zinc-400">imagens personalizadas</span>
+                    </div>
+                    <div class="mb-8">
+                        <span class="text-4xl font-semibold">R$ 97,00</span>
+                    </div>
+                    <p class="text-zinc-300 text-sm mb-8 min-h-[40px]">
+                        Mais variedade e impacto. Ideal para criar um arsenal visual para feed, stories e posicionamento sólido.
+                    </p>
+                    <ul class="space-y-3 mb-8 text-sm text-zinc-200">
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Análise criteriosa de fotos base</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Entrega de prévia em até 24h</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Direção de arte variada</li>
+                        <li class="flex items-center gap-2"><svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Rodada de ajustes inclusa</li>
+                    </ul>
+                    <a href="https://wa.me/5521982808635?text=Ol%C3%A1%21%20Quero%20pedir%20o%20Pacote%20Principal%20de%2010%20imagens." target="_blank" class="block w-full text-center px-6 py-4 text-sm font-medium transition-all bg-white text-black hover:bg-zinc-200 rounded-full">
+                        Pedir Pacote Principal
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. BLOCO DE CRITÉRIOS DAS FOTOS -->
+    <section class="py-24 bg-[#0d0d0d] border-t border-white/5">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-3xl md:text-4xl font-medium mb-4">O resultado depende da base</h2>
+                <p class="text-zinc-400 text-lg">Para entregar um visual premium e fiel, preciso de boas referências iniciais.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-[#111] border border-white/5 p-8 rounded-2xl border-t-4 border-t-green-500/50">
+                    <h3 class="text-xl font-medium mb-6 flex items-center gap-2">
+                        <span>🟢</span> O que enviar (Boas fotos)
+                    </h3>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-green-500/70">✓</span>
+                            <span>Boa luz natural ou ambiente claro</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-green-500/70">✓</span>
+                            <span>Rosto totalmente visível e limpo</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-green-500/70">✓</span>
+                            <span>Sem filtros de Instagram/TikTok</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-green-500/70">✓</span>
+                            <span>Sem desfoque (modo retrato exagerado)</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-green-500/70">✓</span>
+                            <span>Ângulos variados: frontal, lateral ou 3/4</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-green-500/70">✓</span>
+                            <span>Enquadramento mais aberto (meio corpo ajuda)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-[#111] border border-white/5 p-8 rounded-2xl border-t-4 border-t-red-500/50">
+                    <h3 class="text-xl font-medium mb-6 flex items-center gap-2">
+                        <span>🔴</span> O que evitar
+                    </h3>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-red-500/70">✕</span>
+                            <span>Fotos escuras ou contra a luz</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-red-500/70">✕</span>
+                            <span>Selfie extrema (celular colado no rosto)</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-red-500/70">✕</span>
+                            <span>Baixa resolução ou fotos printadas</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-red-500/70">✕</span>
+                            <span>Rosto escondido por cabelo ou sombras</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-red-500/70">✕</span>
+                            <span>Óculos escuros cobrindo totalmente a face</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-red-500/70">✕</span>
+                            <span>Filtro excessivo ou muita maquiagem pesada</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. BLOCO DE PERGUNTAS FREQUENTES -->
+    <section class="py-24 bg-[#0a0a0a]">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="font-serif text-3xl md:text-4xl font-medium mb-12 text-center">Perguntas Frequentes</h2>
+            
+            <div class="space-y-2">
+                <details class="group bg-[#111] border border-white/5 rounded-xl px-6 py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium text-lg outline-none">
+                        Como funciona o processo?
+                        <span class="transition duration-300 group-open:-rotate-180 text-zinc-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-zinc-400 mt-4 leading-relaxed pr-8 pb-2 text-sm md:text-base">
+                        O processo é simples. Após o pagamento antecipado, você me envia suas fotos base pelo WhatsApp. Eu faço uma curadoria, aplico as técnicas de IA e direção de arte, e te entrego as imagens finais com aparência premium.
+                    </div>
+                </details>
+
+                <details class="group bg-[#111] border border-white/5 rounded-xl px-6 py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium text-lg outline-none">
+                        Quanto tempo demora?
+                        <span class="transition duration-300 group-open:-rotate-180 text-zinc-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-zinc-400 mt-4 leading-relaxed pr-8 pb-2 text-sm md:text-base">
+                        Após você enviar as fotos adequadas, entrego a primeira prévia em até 24 horas. Se houver necessidade de ajustes, a entrega final acontece em até 48 horas.
+                    </div>
+                </details>
+
+                <details class="group bg-[#111] border border-white/5 rounded-xl px-6 py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium text-lg outline-none">
+                        Posso pedir ajustes?
+                        <span class="transition duration-300 group-open:-rotate-180 text-zinc-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-zinc-400 mt-4 leading-relaxed pr-8 pb-2 text-sm md:text-base">
+                        Sim. Trabalhamos com rodadas fechadas de ajustes para garantir que a imagem fique natural e alinhada ao seu gosto. Vale lembrar que não é uma recriação infinita do zero, mas um refinamento do material aprovado.
+                    </div>
+                </details>
+
+                <details class="group bg-[#111] border border-white/5 rounded-xl px-6 py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium text-lg outline-none">
+                        Quais fotos devo enviar?
+                        <span class="transition duration-300 group-open:-rotate-180 text-zinc-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-zinc-400 mt-4 leading-relaxed pr-8 pb-2 text-sm md:text-base">
+                        Fotos atuais com boa iluminação, rosto visível, sem filtros pesados e sem óculos escuros. Ao entrar em contato no WhatsApp, eu te envio um guia rápido para acertar de primeira.
+                    </div>
+                </details>
+
+                <details class="group bg-[#111] border border-white/5 rounded-xl px-6 py-4 cursor-pointer">
+                    <summary class="flex justify-between items-center font-medium text-lg outline-none">
+                        Como recebo as imagens?
+                        <span class="transition duration-300 group-open:-rotate-180 text-zinc-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-zinc-400 mt-4 leading-relaxed pr-8 pb-2 text-sm md:text-base">
+                        Tudo é entregue diretamente no seu WhatsApp (ou via link seguro para download em alta resolução), de forma prática para você já baixar e usar nos seus perfis.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. BLOCO FINAL DE CTA -->
+    <section class="py-24 md:py-32 relative overflow-hidden border-t border-white/5 bg-[#0a0a0a]">
+        <div class="absolute inset-0 opacity-[0.02] z-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
+            <h2 class="font-serif text-3xl md:text-5xl font-medium leading-tight mb-8">
+                Suas fotos podem parecer comuns hoje. <br class="hidden md:block">
+                <span class="text-zinc-400 italic">A sua presença online não precisa continuar assim.</span>
+            </h2>
+            <div class="mt-12">
+                <a href="https://wa.me/5521982808635?text=Ol%C3%A1%21%20Quero%20transformar%20minhas%20fotos%20e%20entender%20qual%20pacote%20%C3%A9%20melhor%20pra%20mim." target="_blank" class="inline-flex items-center justify-center px-10 py-5 text-base font-medium transition-all bg-white text-black hover:bg-zinc-200 hover:scale-[1.02] rounded-full shadow-[0_0_30px_rgba(255,255,255,0.1)]">
+                    Quero transformar minhas fotos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. FOOTER -->
+    <footer class="border-t border-white/5 bg-brand-950 py-12">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-center md:text-left">
+                <div class="font-serif text-2xl font-semibold mb-2">StudImagem<span class="text-zinc-500">.</span></div>
+                <p class="text-zinc-500 text-sm mb-2">Elevando a estética do seu perfil e presença online.</p>
+                <div class="flex flex-col gap-1 text-zinc-500 text-sm">
+                    <a href="mailto:Studimagem@hotmail.com" class="hover:text-white transition-colors">Studimagem@hotmail.com</a>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-6">
+                <a href="https://www.instagram.com/studimagem?igsh=MWkwdmY1emdkbjM1Zw%3D%3D&utm_source=qr" target="_blank" class="text-zinc-400 hover:text-white transition-colors" aria-label="Instagram">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="https://wa.me/5521982808635" target="_blank" class="text-zinc-400 hover:text-white transition-colors" aria-label="WhatsApp">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="text-zinc-600 text-xs text-center md:text-right mt-6 md:mt-0">
+                &copy; 2026 StudImagem. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBILE STICKY CTA -->
+    <div class="fixed bottom-0 left-0 w-full p-4 bg-brand-950/95 backdrop-blur-md border-t border-white/10 z-50 md:hidden">
+        <a href="https://wa.me/5521982808635?text=Ol%C3%A1%21%20Quero%20entender%20melhor%20como%20funciona%20a%20transforma%C3%A7%C3%A3o%20das%20minhas%20fotos." target="_blank" class="flex items-center justify-center w-full py-4 bg-white text-black text-[15px] font-semibold rounded-full shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+            Falar no WhatsApp
+        </a>
+    </div>
+
+</body>
+</html>
